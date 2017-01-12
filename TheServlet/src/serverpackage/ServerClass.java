@@ -22,7 +22,8 @@ public class ServerClass {
 		System.out.println("Initial Max Limit : " + userdetail.getMaxLimit());
 		
 		new DroolsTest().RunDrools(userdetail);
-			
+		//DroolsTest.main(null);
+		
 		System.out.println("Maximum limit set to - " + userdetail.getMaxLimit());
 		
 		//Validating the transaction
